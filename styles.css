@@ -91,9 +91,18 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 .main-camera {
     height: 80%;
     position: absolute;
 }
 
+.brands {
+    border: 1px solid transparent;
+    background: linear-gradient(#fff, #fff) padding-box, 
+                  linear-gradient(70deg, white, gray, white) border-box;
+    padding: 17px 30px;
+    margin: 50px 0;
+    justify-content: space-between;
+}
 
