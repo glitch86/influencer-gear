@@ -1,0 +1,41 @@
+@media screen and (max-width: 576px) {
+    .menu {
+        display: block;
+    }
+
+    .icons {
+        display: none;
+    }
+    nav {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container {
+        flex: 0;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .images {
+        width: 500px;
+        height: 500px;
+    }
+
+    .main-camera {
+        height: 70%;
+    }
+
+    .text-area {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-area h1 {
+        font-size: 28px;
+    }
+
+
+}

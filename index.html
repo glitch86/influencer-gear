@@ -5,23 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/eae2f2fff1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="resp.css">
     <title>Influencer Gear</title>
 </head>
 <body>
     <header>
         <nav class="flex">
-            <div>
-                <h3>Influencer products</h3>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
             </div>
-            <div class="flex">
-                <div><a href="#homw">Home</a></div>
-                <div><a href="#product">Products</a></div>
-                <div><a href="#signup">Sign Up</a></div>
-                <div><a href="#login">Log In</a></div>
-                <div><button><i class="fa-solid fa-magnifying-glass"></i></button></div>
-                <div><button><i class="fa-solid fa-cart-shopping"></i></button></div>
+            <div class="container flex">
+
+                <div>
+                    <h3>Influencer products</h3>
+                </div>
+                <div class="flex icons">
+                    <div><a href="#homw">Home</a></div>
+                    <div><a href="#product">Products</a></div>
+                    <div><a href="#signup">Sign Up</a></div>
+                    <div><a href="#login">Log In</a></div>
+                    <div><button><i class="fa-solid fa-magnifying-glass"></i></button></div>
+                </div>
             </div>
+
+            <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
         </nav>
+        <section class="content flex">
+
+            <div class="text-area">
+                <h1>Start your Journey as Influencer</h1>
+                <p>
+                    Get the best deals on your favorite bands and gear up your Influencer Journey right away. Start Your journey today.
+                </p>
+                <button class="btn-primary">Prebook now <i class="fa-solid fa-arrow-right"></i></button>
+
+            </div>
+            <div class="images">
+                <img class="main-camera" src="./images/main-camera.png" alt="camera.png">
+            </div>
+
+        </section>
     </header>
 
 </body>

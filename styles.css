@@ -1,18 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+:root {
+    --primary-color: #E02C6D
+}
 body {
     font-family: poppins;
 }
 
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 header {
-    width: 80%;
+    width: 87%;
     margin: 0 auto;
+    padding: 30px 0;
+}
+
+section {
+    margin: 30px 0;
 }
 
 .flex {
     display: flex;
 }
 
-nav {
+
+.container {
      justify-content: space-between;
+     align-items: center;
+     flex: 1;
 }
+.menu {
+    display: none;
+    font-size: 30px;
+
+}
+
+.icons {
+    gap: 35px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.fa-magnifying-glass {
+    font-size: 25px;
+
+}
+
+.icons button {
+    background-color: transparent;
+    border: none;
+}
+
+.cart {
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+}
+
+.content {
+    align-items: center;
+    gap: 110px;
+    padding: 20px;
+    margin: auto;
+}
+
+
+.text-area{
+    text-align: left;
+    width: 50%;
+}
+
+.text-area button {
+    padding: 13px 27px;
+    border-radius: 20px 0 20px 0;
+}
+
+.images {
+    height: 500px;
+    background: url(./images/Circle\ design.svg) no-repeat center / contain;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main-camera {
+    height: 80%;
+    position: absolute;
+}
+
+
